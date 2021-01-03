@@ -99,7 +99,7 @@ function searchCity(city) {
   axios.get(apiUrl).then(displayForecast);
 }
 
-searchCity("Zurich");
+searchCity("Sankt Gallen");
 
 function showCity(event) {
  event.preventDefault();
