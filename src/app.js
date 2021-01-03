@@ -45,6 +45,8 @@ function showCurrentWeather (response) {
   let currentTemperature = Math.round(response.data.main.temp);
   let temperatureElement = document.querySelector("#current-temperature");
   temperatureElement.innerHTML = `${currentTemperature}`;
+  let cityElement = document.querySelector("#city");
+  cityElement.innerHTML = response.data.name;
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#wind").innerHTML = Math.round(response.data.wind.speed);
   document.querySelector("#description").innerHTML = response.data.weather[0].main;
