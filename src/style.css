@@ -3,11 +3,9 @@ h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 700;
   color: white;
-  padding-left: 25px;
 }
 ul {
-  padding-left: 12px;
-  margin-left: 12px;
+  padding-left: 0;
 }
 li {
   list-style: none;
@@ -35,12 +33,11 @@ small {
   border: 0.5px solid lightgray;
   border-radius: 10px;
   padding: 50px 20px;
-  padding-right: 20px;
   margin: 50px 20px;
+  margin: 25px 0;
 }
 .search-form {
   margin-bottom: 30px;
-  width: 650px;
 }
 
 .form-control {
